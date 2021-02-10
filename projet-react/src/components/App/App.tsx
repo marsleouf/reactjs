@@ -1,7 +1,7 @@
 import React from "react";
 import Board from "../Board/Board";
 import { Props, State, ChipsPositions } from "./types";
-import styles from "./App.module.css";
+import "./App.module.css";
 export default class App extends React.PureComponent<Props, State> {
     state: State = {
     chipsPositions: {},
@@ -101,11 +101,11 @@ export default class App extends React.PureComponent<Props, State> {
     }
     renderStatusMessage() {
         const { gameStatus } = this.state;
-        return <div className={styles.statusMessage}>{gameStatus}</div>;
+        return <div className={"statusMessage"}>{gameStatus}</div>;
     }
     render() {
         return (
-        <div className={styles.app}>
+        <div className={"app"}>
             {this.renderBoard()}
             {this.renderStatusMessage()}
         </div>

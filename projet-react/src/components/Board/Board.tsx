@@ -1,6 +1,6 @@
 import React from "react";
 import Column from "../Column/Column";
-import styles from "./Board.module.css";
+import "./Board.module.css";
 import { Props } from "./types";
 export default class Board extends React.PureComponent<Props> {
   
@@ -21,6 +21,6 @@ export default class Board extends React.PureComponent<Props> {
   return <>{columnsComponents}</>;
   }
   render() {
-    return <div className={styles.board}>{this.renderColumns()}</div>;
+    return <div className={"board"}>{this.renderColumns()}</div>;
   }
 }

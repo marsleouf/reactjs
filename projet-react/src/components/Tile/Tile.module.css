@@ -4,16 +4,16 @@
     border: solid 10px #3355ff;
     border-radius: 100%;
     background-color: white;
-  }
-  .chip {
+}
+.chip {
     width: 75px;
     height: 75px;
     border-radius: 100%;
     background-color: gray;
-  }
-  .yellow {
+}
+.yellow {
     background-color: #ffff33;
-  }
-  .red {
+}
+.red {
     background-color: #ff010b;
-  }
+}
