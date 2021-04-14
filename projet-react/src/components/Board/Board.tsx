@@ -1,6 +1,6 @@
 import React from "react";
 import Column from "../Column/Column";
-import "./Board.module.css";
+import "./Board.css";
 import { Props } from "./types";
 export default class Board extends React.PureComponent<Props> {
   

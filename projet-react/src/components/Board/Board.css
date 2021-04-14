@@ -4,6 +4,7 @@
     border: solid 5px #002bff;
     border-radius: 5px;
     background-color: #3355ff;
+    width: 670px;
   }
   .columns {
     display: flex;

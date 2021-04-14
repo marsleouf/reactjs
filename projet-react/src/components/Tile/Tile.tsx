@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import "./Tile.module.css";
+import "./Tile.css";
 import { Props } from "./types";
 export default class Tile extends React.PureComponent<Props> {
 render() {

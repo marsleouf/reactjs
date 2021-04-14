@@ -1,6 +1,6 @@
 import React from "react";
 import Tile from "../Tile/Tile";
-import "./Column.module.css";
+import "./Column.css";
 import { Props } from "./types";
 export default class Column extends React.PureComponent<Props> {
   render() {
