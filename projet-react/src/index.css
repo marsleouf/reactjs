@@ -5,9 +5,74 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(141,177,200);
+background: linear-gradient(169deg, rgba(141,177,200,1) 0%, rgba(141,177,200,1) 50%, rgba(136,62,127,1) 50%, rgba(62,107,136,1) 50%);
+height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.board {
+  margin: auto;
+  margin-top: 3%;
+}
+
+.statusMessage {
+  margin: auto;
+  text-align: center;
+  font-size: 10vh;
+  font-weight: bold;
+}
+
+.NavBar--container {
+  list-style: none;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.NavBar--nav--list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  font-size: 3vh;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.NavBar--nav-item {
+  box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.NavBar--nav-item:hover {
+  background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+
+.NavBar-link {
+  text-decoration: none;
+  color: black;
+}
+
+.autre-text {
+  text-align: center;
 }
